@@ -10,9 +10,6 @@ void main() {
   grocery.forEach((item,price) {
     totalprice += price;
   },);
-  // for(grocery.values in grocery){
-  //   totalprice += price;
-  // };
   print(totalprice);
   // the total price with the tax
   var totaltax = totalprice + (totalprice*taxes);
